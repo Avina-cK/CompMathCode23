@@ -34,15 +34,12 @@ while(t<(T+2)){
       #0-11
       if((GOL[t, i] == 1) && (GOL[t,i+1] == 1)){
         GOL[t+1,i]<-n[4]}
-        
       #0-10
       if((GOL[t,i] == 1) && (GOL[t,i+1] == 0)){
         GOL[t+1,i]<-n[6]}
-      
       #0-01
       if((GOL[t,i] == 0) && (GOL[t,i+1] == 1)){
         GOL[t+1,i]<-n[7]}
-      
       #0-00
       if((GOL[t, i] == 0) && (GOL[t,i+1] == 0)){
         GOL[t+1,i]<-n[8]}
@@ -51,20 +48,16 @@ while(t<(T+2)){
       #1-11
       if((GOL[t, i] == 1) && (GOL[t,i+1] == 1)){
         GOL[t+1,i]<-n[1]}
-      
       #1-10
       if((GOL[t,i] == 1) && (GOL[t,i+1] == 0)){
           GOL[t+1,i]<-n[2]}
-        
       #1-01
       if((GOL[t,i] == 0) && (GOL[t,i+1] == 1)){
           GOL[t+1,i]<-n[3]}
-        
       #1-00
       if((GOL[t,i] == 0) && (GOL[t,i+1] == 0)){
         GOL[t+1,i]<-n[4]}
       }
-      
       
     i=N;
     if(u[t,2]==0){
@@ -108,19 +101,15 @@ while(t<(T+2)){
       #100
       if((GOL[t, i-1] == 1) && (GOL[t,i] == 0) && (GOL[t,i+1] == 0)){
         GOL[t+1,i]<-n[4]}
-        
       #011
       if((GOL[t, i-1] == 0) && (GOL[t,i] == 1) && (GOL[t,i+1] == 1)){
         GOL[t+1,i]<-n[5]}
-        
       #010
       if((GOL[t, i-1] == 0) && (GOL[t,i] == 1) && (GOL[t,i+1] == 0)){
         GOL[t+1,i]<-n[6]}
-        
       #001
       if((GOL[t, i-1] == 0) && (GOL[t,i] == 0) && (GOL[t,i+1] == 1)){
         GOL[t+1,i]<-n[7]}
-        
       #000
       if((GOL[t,i-1] == 0) && (GOL[t, i] == 0) && (GOL[t,i+1] == 0)){
         GOL[t+1,i]<-n[8]}
