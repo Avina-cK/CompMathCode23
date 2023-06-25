@@ -1,4 +1,1 @@
-In the file "CreatingTransitionMatrix.r", set the following parameters:
-
-rule_no<-90;
-N <- 3;
+In the file "CreatingTransitionMatrix.r", change the parameters "rule_no" and "N".
