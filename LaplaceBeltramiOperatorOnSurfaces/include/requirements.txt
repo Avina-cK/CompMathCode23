@@ -1,0 +1,13 @@
+GeometryBasics
+Gmsh.gmsh
+Gridap
+Gridap.Geometry
+Gridap.FESpaces
+GridapGmsh
+JLD2
+LinearAlgebra
+Meshes
+MeshIO
+Meshing
+SparseArrays
+StaticArrays
