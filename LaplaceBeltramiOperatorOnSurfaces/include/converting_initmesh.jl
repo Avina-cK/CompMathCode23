@@ -1,5 +1,5 @@
-#include("C:/Users/avina/Documents/2023_MSc_FAU/604_SeminarCourse/Code/include/converting_mesh_formats.jl")
-cd("C:/Users/avina/Documents/2023_MSc_FAU/604_SeminarCourse/Code/isomeshes_NaiveSurfaceNet/")
+
+cd(".../init_meshes/")
 using JLD2, GeometryBasics
 using Meshes
 using Gmsh.gmsh
@@ -61,8 +61,4 @@ function convert_initmesh(i)
     # Save mesh
     gmsh.write("$(filename)_tri.msh")
     gmsh.finalize()
-end
-    
-for i in 61:10:101
-    convert_initmesh(i)
 end
