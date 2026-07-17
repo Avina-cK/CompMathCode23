@@ -140,7 +140,7 @@ V0 = V0_base + purturbV0;
 
 # -- Output folder ---------------------------------------------
 outputparams = @sprintf("%.3f_%.3f_%.3f_%.3f", Dᵤ, Dᵥ, a, b)
-cd("C:/Users/avina/Documents/2023_MSc_FAU/506_ModellingOptimizationSeminar/FinalCode/examples/Example_01")
+
 output_dir = "schnakenberg64_$(outputparams)_$(eq_gridsize)"
 mkpath(output_dir)
 cd(output_dir)
